@@ -13,7 +13,7 @@ for i in range(len(myimg)):
     imgs.append(cv2.imread(myimg[i]))
     imgs[i]=cv2.resize(imgs[i],(0,0),fx=0.4,fy=0.4)
 
-# Original imahe
+# Original image
 cv2.imshow('1',imgs[0])
 cv2.imshow('2',imgs[1])
 cv2.imshow('3',imgs[2])
